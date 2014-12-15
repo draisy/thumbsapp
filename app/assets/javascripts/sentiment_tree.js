@@ -112,6 +112,7 @@ var depthCount = function (branch) {
   var updateScore = function(d){
     var selectedPhrase = collectPhrase(d);
     var updatedScore = parseInt(this.id.slice(-1));
+    debugger;
             $.ajax({
                 data: { phrase : selectedPhrase, score: updatedScore },
                 type: 'POST',

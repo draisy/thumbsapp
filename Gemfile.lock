@@ -50,6 +50,7 @@ GEM
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
     chartkick (1.3.2)
+    chronic (0.10.2)
     coderay (1.1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -152,6 +153,8 @@ GEM
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    whenever (0.9.4)
+      chronic (>= 0.6.3)
 
 PLATFORMS
   java
@@ -173,3 +176,4 @@ DEPENDENCIES
   stanford-core-nlp!
   turbolinks
   uglifier (>= 1.3.0)
+  whenever

@@ -34,6 +34,7 @@ gem 'badfruit'
 #gem 'treat'
 gem 'chartkick'
 ruby '2.0.0', :engine => 'jruby', :engine_version => '1.7.16'
+gem 'whenever', :require => false
 
 #gem 'puma'
 
