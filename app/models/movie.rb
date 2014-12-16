@@ -27,3 +27,14 @@ class Movie < ActiveRecord::Base
 
 end
 
+require 'httparty'
+ 
+API_VERSION = "v1.0"
+API_BASE_URL = "http://api.rottentomatoes.com/api/public/#{API_VERSION}"
+LISTS_DETAIL_BASE_URL = "#{API_BASE_URL}/lists"
+@api_key = 'hk73sdh9btjw5w9t6m2cws9p'
+url = "#{LISTS_DETAIL_BASE_URL}/movies/in_theaters.json?apikey=#{@api_key}"
+ 
+ 
+HTTParty.get(url)
+

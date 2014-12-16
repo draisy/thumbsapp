@@ -36,7 +36,7 @@ gem 'chartkick'
 ruby '2.0.0', :engine => 'jruby', :engine_version => '1.7.16'
 gem 'whenever', :require => false
 
-#gem 'puma'
+gem 'puma'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
